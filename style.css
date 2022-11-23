@@ -279,7 +279,7 @@ aside{
     }
 
     .Sobre-mim button{
-       
+    
         margin-left: auto;
         position: absolute;
     }
@@ -459,4 +459,12 @@ aside{
 
     box-shadow: 10px 10px 10px #858585, 10px 10px 10px;
 
+}
+
+@media screen and (max-width: 420px){
+
+    .C-Rodape form input:last-child{
+        width: 100px;
+        right: 15%;
+    }
 }
